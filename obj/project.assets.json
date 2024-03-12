@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jamiu\\C# Class\\C# Class.csproj",
+      "projectUniqueName": "C:\\Users\\jamiu\\OneDrive\\Documentos\\GitHub\\C-_Project\\C# Class\\C# Class.csproj",
       "projectName": "C# Class",
-      "projectPath": "C:\\Users\\jamiu\\C# Class\\C# Class.csproj",
+      "projectPath": "C:\\Users\\jamiu\\OneDrive\\Documentos\\GitHub\\C-_Project\\C# Class\\C# Class.csproj",
       "packagesPath": "C:\\Users\\jamiu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jamiu\\C# Class\\obj\\",
+      "outputPath": "C:\\Users\\jamiu\\OneDrive\\Documentos\\GitHub\\C-_Project\\C# Class\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jamiu\\AppData\\Roaming\\NuGet\\NuGet.Config"
