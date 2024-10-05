@@ -1,0 +1,14 @@
+C:\Users\jamiu\OneDrive\Documentos\GitHub\C-_Project\C# Class\Datatype\bin\Debug\net8.0\Datatype.exe
+C:\Users\jamiu\OneDrive\Documentos\GitHub\C-_Project\C# Class\Datatype\bin\Debug\net8.0\Datatype.deps.json
+C:\Users\jamiu\OneDrive\Documentos\GitHub\C-_Project\C# Class\Datatype\bin\Debug\net8.0\Datatype.runtimeconfig.json
+C:\Users\jamiu\OneDrive\Documentos\GitHub\C-_Project\C# Class\Datatype\bin\Debug\net8.0\Datatype.dll
+C:\Users\jamiu\OneDrive\Documentos\GitHub\C-_Project\C# Class\Datatype\bin\Debug\net8.0\Datatype.pdb
+C:\Users\jamiu\OneDrive\Documentos\GitHub\C-_Project\C# Class\Datatype\obj\Debug\net8.0\Datatype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jamiu\OneDrive\Documentos\GitHub\C-_Project\C# Class\Datatype\obj\Debug\net8.0\Datatype.AssemblyInfoInputs.cache
+C:\Users\jamiu\OneDrive\Documentos\GitHub\C-_Project\C# Class\Datatype\obj\Debug\net8.0\Datatype.AssemblyInfo.cs
+C:\Users\jamiu\OneDrive\Documentos\GitHub\C-_Project\C# Class\Datatype\obj\Debug\net8.0\Datatype.csproj.CoreCompileInputs.cache
+C:\Users\jamiu\OneDrive\Documentos\GitHub\C-_Project\C# Class\Datatype\obj\Debug\net8.0\Datatype.dll
+C:\Users\jamiu\OneDrive\Documentos\GitHub\C-_Project\C# Class\Datatype\obj\Debug\net8.0\refint\Datatype.dll
+C:\Users\jamiu\OneDrive\Documentos\GitHub\C-_Project\C# Class\Datatype\obj\Debug\net8.0\Datatype.pdb
+C:\Users\jamiu\OneDrive\Documentos\GitHub\C-_Project\C# Class\Datatype\obj\Debug\net8.0\Datatype.genruntimeconfig.cache
+C:\Users\jamiu\OneDrive\Documentos\GitHub\C-_Project\C# Class\Datatype\obj\Debug\net8.0\ref\Datatype.dll
