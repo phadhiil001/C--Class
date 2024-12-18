@@ -523,22 +523,48 @@ for (int i = 0; i < matrix.GetLength(0); i++)
 
 // Question 11: Reverse Rows
 // Q: Reverse the elements in each row of the array.
+/*
+int[,] matrix = {
+    {4, 5, 6, 2},
+    {7, 8, 9, 1}
+};
 
-// int[,] matrix = {
-//     {4, 5, 6},
-//     {7, 8, 9}
-// };
 
-// Array.Reverse(matrix[0, 0]);
+for (int i = 0; i < matrix.GetLength(0); i++)
+{
+    for (int j = 0; j < matrix.GetLength(1); j++)
+    {
+        int temp = matrix[i, j];
+        // 4 
+        // 5
+        // 5
+        // 4
+        matrix[i, j] = matrix[i, matrix.GetLength(1) - j - 1]; // matrix[0, 4 - 0 - 1] // [0,3] = 2
+                                                                // matrix[0, 4 - 1 - 1] // [0, 2] = 6
+                                                                // matrix[0, 4 - 2 -1] // [0, 1] = 6
+                                                                // matrix[0, 4 - 3 - 1] // [0, 0] = 2
+        // [2, 5, 6, 2] // new array
+        // [2, 6, 6, 4] // new array
+        // [2, 6, 6, 4] // new array
+        // [2, 5, 6, 2] // new array
+        matrix[i, matrix.GetLength(1) - j - 1] = temp;
+        // [2, 5, 6, 4]
+        // [2, 6, 5, 4]
+        // [2, 5, 6, 4]
+        // [4, 5, 6, 2]
+    }
+}
 
-// for (int i = 0; i < matrix.GetLength(0); i++)
-// {
-//     for (int j = 0; j < matrix.GetLength(1); j++)
-//     {
-//         Console.Write(matrix[i, j]);
-//     }
-// }
 
+for (int i = 0; i < matrix.GetLength(0); i++)
+{
+    for (int j = 0; j < matrix.GetLength(1); j++)
+    {
+        Console.Write(matrix[i, j]);
+    }
+    Console.WriteLine();
+}
+*/
 
 // Question 13: Find the Average
 // Q: Calculate the average of all elements in the array.
@@ -730,23 +756,37 @@ for (int i = 0; i < flatArray.Length; i++)
 
 // Question 25: Check for Zero Row
 // Q: Check if any row in the array contains only zeros.
+// A: Yes, we can do this by iterating over each row and checking if all elements in
+//    that row are zero.
+// If all element in the row is zero
+/*
+int[,] matrix = {
+    {4, 5, 6},
+    {7, 8, 4},
+    {0, 0, 0}
+};
 
-// int[,] matrix = {
-//     {4, 5, 6},
-//     {7, 8, 4},
-//     {0, 0, 0}
-// };
+bool hasZeroRow = false;
 
-// for (int i = 0; i < matrix.GetLength(0); i++)
-// {
-//     for (int j = 0; j < matrix.GetLength(1); j++)
-//     {
-//         if (matrix[j, i] == 0)
-//         {
-
-//         }
-//     }
-// }
+for (int i = 0; i < matrix.GetLength(0); i++)
+{
+    bool isZeroRow = true;
+    for (int j = 0; j < matrix.GetLength(1); j++)
+    {
+        if (matrix[i, j] != 0)
+        {
+            isZeroRow = false;
+            break;
+        }
+    }
+    if (isZeroRow)
+    {
+        hasZeroRow = true;
+        break;
+    }
+}
+Console.WriteLine(hasZeroRow);
+*/
 
 
 // Question 26: Column-wise Maximum
@@ -817,3 +857,5 @@ Console.WriteLine($"Count of 0 = {count}");
 
 // Question 38: Reverse Rows
 // Q: Reverse each row in the 2D array.
+
+
